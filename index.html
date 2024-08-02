@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html>
 <head>
-
   <!-- Site Information -->
   <meta charset="utf-8" />
   <title>Live Editor</title>
@@ -11,8 +10,8 @@
   <meta property="og:url" content="http://staticresource.com/editor" />
   <meta property="og:description" content="Preview HTML, CSS, and JavaScript live in your browser in realtime." />
 
-  <!-- Cascading Style Sheets -->
-  <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:200&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+  <!-- Fonts and Stylesheets -->
+  <link href="https://fonts.googleapis.com/css?family=Roboto+Mono:400,700&display=swap" rel="stylesheet">
   <link href="css/global.css" rel="stylesheet">
 
   <!-- JavaScript -->
@@ -35,12 +34,23 @@
 
 </head>
 <body>
-  <section>
-    <h1>Live Editor</h1><a class="clearLink" href="#" title="Click to clear all">clear</a>
-    <textarea id="html" value="" placeholder="HTML" autocapitalize="off" autofocus></textarea>
-    <textarea id="css" value="" placeholder="CSS" autocapitalize="off"></textarea>
-    <textarea id="js" value="" placeholder="JavaScript" autocapitalize="off"></textarea>
-    <iframe id="preview"></iframe>
+  <section class="editor-container">
+    <div class="editor-section">
+      <h1>Live Editor</h1>
+      <div class="button-section">
+        <button class="exampleButton" title="Click to load example">Example</button>
+        <button class="clearLink" href="#" title="Click to clear all">clear</button>
+      </div>
+      <textarea id="html" value="" placeholder="HTML" autocapitalize="off" autofocus></textarea>
+      <textarea id="css" value="" placeholder="CSS" autocapitalize="off"></textarea>
+      <textarea id="js" value="" placeholder="JavaScript" autocapitalize="off"></textarea>
+    </div>
+    <div class="preview-section">
+      <iframe id="preview"></iframe>
+    </div>
   </section>
+  <footer class="footer">
+     <a href="http://github.com/CodeAstralIzax">Created by PREM KUMAR E</a> 
+  </footer>
 </body>
 </html>
