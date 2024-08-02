@@ -43,18 +43,24 @@ To run this project locally, follow these steps:
 - The live preview will automatically update as you type.
 
 ## Structure
-
+<pre>
 live-editor/
 ├── css/
-│ └── global.css # Main stylesheet for the editor
+│   └── global.css          # Main stylesheet for the editor
 ├── js/
-│ ├── jquery.min.js # jQuery library
-│ └── editor.js # Main JavaScript for handling editor functionality
+│   ├── jquery.min.js       # jQuery library
+│   └── editor.js           # Main JavaScript for handling editor functionality
 ├── img/
-│ └── ico/ # Icons for the editor
-├── index.html # Main HTML file
-├── README.md # Project documentation
-
+│   └── ico/
+│       ├── apple-touch-icon-114-precomposed.png
+│       ├── apple-touch-icon-144-precomposed.png
+│       ├── apple-touch-icon-57-precomposed.png
+│       ├── apple-touch-icon-72-precomposed.png
+│       ├── favicon.png
+│       └── thumb.png
+├── index.html              # Main HTML file
+├── README.md               # Project README file
+</pre>
 
 ## CSS Styles
 
